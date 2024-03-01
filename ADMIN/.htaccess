@@ -1,0 +1,4 @@
+AuthName "Authentifiez-vous afin d'accéder au contenu sécurisé"
+AuthType Basic
+AuthUserFile "/var/www/html/portfolio_tp/SitePersoTp_oscar_privitera/secure/.htpasswd"
+Require valid-user

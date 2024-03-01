@@ -1,0 +1,367 @@
+.blur-cover {
+    background: rgba(16, 16, 16, 0.8);
+    min-height: 100vh;
+    backdrop-filter: blur(100px);
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.bg-circle-blur-container {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.bg-circle-blur {
+    height: 245px;
+    width: 245px;
+}
+
+.bg-circle-one {
+    background: #47FFE9;
+}
+
+.bg-circle-two {
+    background: #FF4EED;
+}
+
+.bg-circle-three {
+    background: #ff6231;
+}
+
+header {
+    display: flex;
+    height: 5rem;
+    justify-content: space-between;
+}
+
+.header--container-logo-name {
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
+    height: 100%;
+    width: 25%;
+}
+
+.header--container-logo {
+    display: flex;
+}
+
+.logo--part-left {
+    height: 16px;
+    width: 16px;
+    background: #ffffff;
+    border-radius: 50%;
+}
+
+.logo--part-right {
+    height: 16px;
+    width: 45px;
+    background: #ffffff;
+    border-radius: 25px;
+    margin-left: 5px;
+}
+
+.header--name-game {
+    font-family: "DRUK";
+    margin-left: 1rem;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header nav a {
+    text-decoration: none;
+    color: #ffffff;
+    margin-left: 1.5rem;
+}
+
+.header--container-play-btn {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header--play-btn {
+    width: 162px;
+    height: 51px;
+    border-radius: 25px;
+    border: 1.5px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.index-hero-banner {
+    margin-top: 5rem;
+}
+
+.index--welcome-msg {
+    text-align: center;
+}
+
+.index--lets-go-msg {
+    text-align: center;
+    margin-top: 3rem;
+    font-size: 36px;
+}
+
+.index--title-game-name {
+    width: 100%;
+    font-family: "DRUK";
+    font-size: 180px;
+    margin-top: 5rem;
+    background: linear-gradient(45deg, #ff6231 0%, #ff4eed 50%, #47ffe9 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    white-space: nowrap;
+    text-align: center;
+}
+
+.index--game-marker {
+    width: 100%;
+    font-family: "Marker";
+    font-size: 100px;
+    text-shadow: 0 0 10px rgba(71, 255, 233, .5);
+    text-align: center;
+    background: radial-gradient(circle, rgba(255, 255, 255, 1) 0%, rgba(71, 255, 233, 1) 5%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    transform: rotate(-15deg);
+    margin-top: 2rem;
+}
+
+.container-all-icons-game {
+    margin-top: 5rem;
+    transform: rotate(5deg);
+    display: flex;
+}
+
+.case-icon-game {
+    min-height: 60px;
+    min-width: 60px;
+    border-radius: var(--borderRadius);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: .5rem;
+    background: rgb(255, 78, 237);
+
+}
+
+.crane {
+    background: radial-gradient(circle, rgba(255, 78, 237, 0) 30%, rgba(71, 255, 233, .41) 100%);
+}
+
+.feu {
+    background: radial-gradient(circle, rgba(255, 78, 237, 0) 30%, rgba(255, 98, 49, .41) 100%);
+}
+
+.poison {
+    background: radial-gradient(circle, rgba(255, 78, 237, 0) 30%, rgba(255, 78, 237, .41) 100%);
+}
+
+.baril {
+    background: radial-gradient(circle, rgba(255, 78, 237, 0) 30%, rgba(255, 199, 0, .41) 100%);
+}
+
+.baril img {
+    margin-left: 10px;
+}
+
+.case-icon-game img {
+    height: 40px;
+}
+
+.bandeau-all-names {
+    position: relative;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 10rem;
+    transform: rotate(-10deg);
+    background: rgba(23, 23, 23, 1);
+    height: 210px;
+    width: 150%;
+    margin-left: -20%;
+}
+
+
+
+.bandeau-name {
+    font-family: 'DRUK';
+    background: linear-gradient(45deg, #ff6231 0%, #ff4eed 50%, #47ffe9 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    font-size: 32px;
+}
+
+.container--presentation-rules-game {
+    padding: 0 5%;
+    margin-top: 15rem;
+    backdrop-filter: blur(100px);
+    background: rgba(23, 23, 23, .8);
+    padding-top: 20rem;
+    margin-top: -8rem;
+    padding-bottom: 10rem;
+}
+
+.title-presentation-game {
+    margin-bottom: 2rem;
+}
+
+.all-rules-game {
+    margin-top: 2rem;
+}
+
+.all-rules-game li {
+    margin-top: 1rem;
+}
+
+.play-btn {
+    width: 160px;
+    height: 50px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+    background: rgb(255, 78, 237);
+    background: linear-gradient(240deg, rgba(255, 78, 237, 1) 0%, rgba(255, 98, 49, 1) 100%);
+}
+
+.image-game-pc {
+    width: 900px;
+    border-radius: var(--borderRadius);
+    margin-top: 4rem;
+}
+
+footer {
+    background: #1E1E1E;
+    padding: 0 10%;
+    padding-top: 3.5rem;
+    padding-bottom: 1rem;
+}
+
+.footer--container-all-category-link {
+    display: flex;
+}
+
+.footer--container-link-social-network {
+    margin-left: 5rem;
+}
+
+.footer--container-title-polygon {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.footer--title {
+    margin-left: .5rem;
+    margin-top: 3px;
+    margin-left: .5rem;
+}
+
+.footer--link-label {
+    margin-left: .5rem;
+}
+
+.footer--triangle-icons {
+    height: 12px;
+    width: 13px;
+}
+
+.footer--social-icons {
+    height: 17px;
+    width: 17px;
+}
+
+.footer--body-link {
+    display: flex;
+    align-items: center;
+    margin-bottom: .5rem;
+}
+
+.footer--copyright {
+    margin-top: 6rem;
+}
+
+.footer--copyright, .footer--copyright--span {
+    text-align: center;
+    color: rgba(255, 255, 255, .31);
+}
+
+.footer--copyright--span {
+    font-family: "DRUK";
+}
+
+@media(max-width : 768px) {
+    nav {
+        padding-right: 7.5%;
+    }
+
+    .header--name-game {
+        display: none;
+    }
+
+    .header--container-play-btn {
+        display: none;
+        /* padding-right: 5%; */
+    }
+
+    .index--lets-go-msg {
+        font-size: 28px;
+    }
+
+    .index--title-game-name {
+        font-size: 75px;
+    }
+
+    .index--game-marker {
+        font-size: 50px;
+        margin-top: 5rem;
+    }
+
+    .container--presentation-rules-game {
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    .bandeau-all-names {
+        height: 160px;
+    }
+
+    .bandeau-name {
+        font-size: 20px;
+    }
+
+    .play-btn {
+        width: 90%;
+        text-align: center;
+    }
+
+    footer {
+        padding: 0 5%;
+        padding-top: 3.5rem;
+        padding-bottom: 1rem;
+    }
+
+    .footer--social-icons {
+        display: none;
+    }
+
+    .footer--triangle-icons {
+        display: none;
+    }
+}

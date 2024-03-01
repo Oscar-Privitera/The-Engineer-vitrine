@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/styles.css" />
+    <title>Contacts - The Engineer</title>
+</head>
+
+<body>
+    <div class="bg-circle-blur-container">
+        <div class="bg-circle-blur bg-circle-one"></div>
+        <div class="bg-circle-blur bg-circle-two"></div>
+        <div class="bg-circle-blur bg-circle-three"></div>
+    </div>
+    <div class="blur-cover">
+        <header>
+            <div class="header--container-logo-name">
+                <div class="header--container-logo">
+                    <div class="logo--part-left"></div>
+                    <div class="logo--part-right"></div>
+                </div>
+                <p class="header--name-game">The Engineer</p>
+            </div>
+            <nav>
+                <a href="./index.html">Accueil</a>
+                <a href="./contact.html">Contacts</a>
+            </nav>
+            <div class="header--container-play-btn">
+                <p class="header--play-btn">Jouer !</p>
+            </div>
+        </header>
+        <div class="index-hero-banner">
+            <p class="index--welcome-msg">Des questions ? Des suggestions ?</p>
+            <h2 class="index--lets-go-msg">Contactez-nous !</h2>
+            <h1 class="index--title-game-name">CONTACTS</h1>
+        </div>
+        <form method="POST" action="../PHP/traitement.php">
+            <h3>FORMULAIRE DE CONTACTS</h3>
+            <label for="forname">Nom</label>
+            <input type="text" name="forname" maxlength="125" placeholder="Entrez votre nom..." />
+            <label for="surname">Prénom</label>
+            <input type="text" name="surname" maxlength="125" placeholder="Entrez votre prénom..." />
+            <label for="email">Email</label>
+            <input type="email" name="email" maxlength="125" placeholder="Entrez votre email..." />
+            <label for="message_content">Votre message</label>
+            <textarea name="message_content" resize="none"></textarea>
+            <div class="form--container-input-submit">
+                <input type="submit" value="Envoyer" />
+            </div>
+        </form>
+        <footer>
+            <div class="footer--container-all-category-link">
+                <div class="footer--container-link-usefull">
+                    <div class="footer--container-title-polygon">
+                        <img src="../ASSETS/triangle.png" class="footer--social-icons" alt="Triangle" />
+                        <h4 class="footer--title">Liens utiles</h4>
+                    </div>
+                    <div class="footer--body-link">
+                        <img src="../ASSETS/triangle-orange.png" class="footer--triangle-icons" alt="Triangle" />
+                        <p class="footer--link-label">Mentions légales</p>
+                    </div>
+                    <div class="footer--body-link">
+                        <img src="../ASSETS/triangle-orange.png" class="footer--triangle-icons" alt="Triangle" />
+                        <p class="footer--link-label">À propos</p>
+                    </div>
+                </div>
+                <div class="footer--container-link-social-network">
+                    <div class="footer--container-title-polygon">
+                        <img src="../ASSETS/triangle.png" class="footer--social-icons" alt="Triangle" />
+                        <h4 class="footer--title">Réseaux sociaux</h4>
+                    </div>
+                    <div class="footer--body-link">
+                        <img src="../ASSETS/discord.png" class="footer--social-icons" alt="Icône de Discord" />
+                        <p class="footer--link-label">Discord</p>
+                    </div>
+                    <div class="footer--body-link">
+                        <img src="../ASSETS/x.png" class="footer--social-icons"
+                            alt="Icône de X ( Anciennement Twitter )" />
+                        <p class="footer--link-label">X ( Twitter )</p>
+                    </div>
+                    <div class="footer--body-link">
+                        <img src="../ASSETS/linkedin.png" class="footer--social-icons" alt="Icône de LinkedIn" />
+                        <p class="footer--link-label">LinkedIn</p>
+                    </div>
+                </div>
+            </div>
+            <p class="footer--copyright">Copyright 2023 Tout droits réservés | <span class="footer--copyright--span">The
+                    Enginner</span></p>
+        </footer>
+    </div>
+</body>
+
+</html>

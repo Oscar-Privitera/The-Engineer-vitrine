@@ -1,0 +1,78 @@
+.admin-container-all-message {
+    margin-top: 10rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 10rem;
+    gap: 2rem 
+}
+
+.admin-card-msg {
+    position: relative;
+    width: 95%;
+    max-width: 600px;
+    min-height: 300px;
+    background: rgb(36, 36, 36);
+    border-radius: var(--borderRadius);
+    overflow: hidden;
+    padding: 2rem;
+}
+
+.admin-card-msg--header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.admin-card-msg--label {
+    font-family: "DRUK";
+    letter-spacing: 1.5px;
+}
+
+.admin-card-msg--content-msg {
+    margin-top: 2rem;
+}
+
+.admin-card-msg--footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3rem;
+}
+
+.admin-card-msg--bg-icon {
+    width: 400px;
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 50px;
+    transform: rotate(-45deg) translateX(100px);
+    opacity: .02;
+}
+
+.admin-card-msg--count-msg {
+    font-size: 42px;
+    font-family: "DRUK";
+    background: linear-gradient(45deg, #ff6231 0%, #ff4eed 50%, #47ffe9 90%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+/* QUESTIONS PAGE */
+
+
+@media(max-width: 768px) {
+    .admin-card-msg {
+        width: 92.5%;
+    }
+
+    .admin-card-msg--forname-surname-email {
+        font-size: 12px;
+    }
+
+    .admin-card-msg--count-msg {
+        font-size: 32px;
+    }
+}
+

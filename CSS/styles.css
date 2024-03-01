@@ -1,0 +1,45 @@
+@import url("./index.css");
+@import url("./contact.css");
+@import url("./admin.css");
+@import url("./errors.css");
+
+:root {
+  --bodyBg: #101010;
+  --borderRadius: 10px;
+  --inputColor: #252525;
+  --inputBorderRadius: 10px
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins';
+  color: white;
+}
+
+
+@font-face {
+  font-family: "DRUK";
+  src: url("../FONTS/Druk\ Wide\ Bold.ttf");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("../FONTS/Poppins-Medium.ttf");
+}
+
+@font-face {
+  font-family: "Marker";
+  src: url("../FONTS/PermanentMarker-Regular.ttf");
+}
+
+body {
+  background: var(--bodyBg);
+  overflow: hidden;
+  overflow-y: scroll;
+}
+
+h2 {
+  font-family: "DRUK";
+}
